@@ -103,24 +103,45 @@ Mainly performed using Matplotlib and Seaborn library and the following graph an
 Conclusion
 
 (1) Agent no. 9 has made most no. of bookings.
+
 (2) BB (bed and breakfast) is the most prefered type of meal in hotel.  
+
 (3) TA/TO is the most common channel for booking hotels.
+
 (4) Most common stay length is less than 4 days and generally people prefer City hotel for short stay, but for long stays, Resort Hotel is preferred.
+
 (5) percentage of booking in City Hotel is 60% and in Resort Hotel is 40%.
+
 (6) City hotel has longer waiing time than Resort Hotel.
+
 (7) City Hotel has 30% booking cancalation rate.
+
 (8)Most demanded room type is A, but better adr rooms are of type H, G and C also.
+
 (9)Most of the guest are from Portugal.
+
 (10)City hotel seems to be making slightly more revenue.
+
 (11).City Hotel has higher lead time than Resort Hotel.
+
 (12)TA/TO channel has highest cancellation percentage.
+
 (13).TA/TO is mostly used for planning hotel visits ahead of time.but sudden visits other medium are most preferred.
+
 (14).while booking via TA/TO one may have to wait a little longer to confirm booking of rooms.
+
 (15). (1)Total stay length and lead time have slight correlation. This may means that for longer hotel stays people generally plan little before the the actual arrival (2).adr is slightly correlated with total_people, which makes sense as more no. of people means more revenue, therefore more adr.
-(16) (1).A pairs plot allows us to see both distribution of single variables relationships between two variables. Pair plots are a great method to identify trends for follow-up analysis and, fortunately, are easily implemented in Python.
+
+(16) (1).A pairs plot allows us to see both distribution of single variables relationships between two variables. Pair plots 
+are a great method to identify trends for follow-up analysis and, fortunately, are easily implemented in Python.
+
 2.for example.the left-most plot in the second row shows the scatter plot of tip versus total_bill.it shows the relation between two variables in sysmatic way.
+
 3.just like that the other variables of graphs shows the relation between the two variables like.
+
 4.y-axis(total_bill) and x-axis(total_bill): total_bill relation with total_bill y-axis(total_bill) and x-axis(tip) total_bill relation with tip y-axis(total_bill) and x-axis(size) : total_bill relation with size
+
 5.y-axis(tip) and x-axis(total_bill) : tip relation with total_bill y-axis(tipl) and x-axis(tip) : tip relation with tip y-axis(tip) and x-axis(size) : tip relation with size
+
 6.y-axis(size) and x-axis(total_bill) : size relation with total_bill y-axis(size) and x-axis(tip) : size relation with tip y-axis(size) and x-axis(size) : size relation with size
 
