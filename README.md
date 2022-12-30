@@ -1,13 +1,13 @@
-analysis on hotel booking
+# analysis on hotel booking 
 
-Hotel Bookings Data Analysis
+## Hotel Bookings Data Analysis
 
-Objective
+### Objective
 
 We are provided with a hotel bookings dataset.Out main objective is perform EDA on the given dataset and draw useful 
 conclusions about general trends in hotel bookings and how factors governing hotel bookings interact with each other.
 
-Dataset
+### Dataset
 
 We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 - hotel: Name of hotel ( City or Resort)
@@ -44,28 +44,28 @@ We are given a hotel bookings dataset. This dataset contains booking information
 - reservation_status: Whether a customer has checked out or canceled,or not showed 
 reservation_status_date: Date of making reservation status.
 
-Data Cleaning 
+### Data Cleaning 
 
-(1) Removing Duplicate rows
+#### (1) Removing Duplicate rows
 All duplicate rows were dropped.
 
-(2) Handling null values
+#### (2) Handling null values
 •	Null values in columns company and agent were replaced by 0.
 •	Null values in column country were replaced by 'others'.
 •	Null values in column children were replaced by the mean of the column.
 
-(3) Converting columns to appropriate data types
+#### (3) Converting columns to appropriate data types
 •	Changed data type of children, company, agent to int type.
 •	Changed data type of reservation_status_date to date type.
 
-(4) Removing outliers
+#### (4) Removing outliers
 •	One outlier was found in the adr column. Simply dropped it.
 
-(5) Creating new columns
+#### (5) Creating new columns
 •	Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 •	Created new column total_people by adding adults+children+babies.
 
-Exploratory Data Analysis
+### Exploratory Data Analysis
 
 Performed EDA and tried answering the following questions:
 -	Q1.Which agent makes most no. of bookings?
@@ -100,7 +100,7 @@ Mainly performed using Matplotlib and Seaborn library and the following graph an
 7)Box Plot
 
 
-Conclusion
+### Conclusion
 
 (1) Agent no. 9 has made most no. of bookings.
 
